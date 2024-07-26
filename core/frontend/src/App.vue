@@ -318,7 +318,6 @@
           class="build_info"
         >
           Modified By Youqing from BlueOS
-          </a>
         </span>
       </v-container>
     </v-navigation-drawer>
