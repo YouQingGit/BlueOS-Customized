@@ -82,7 +82,7 @@
           alt="Blue Robotics Logo"
           class="shrink mr-2"
           contain
-          :src="blueos_logo"
+          :src="university_logo"
           width="70%"
         />
       </v-container>
@@ -281,7 +281,7 @@
         <span
           class="build_info"
         >
-          BlueOS Version:
+          System Version:
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -317,14 +317,7 @@
         <span
           class="build_info"
         >
-          By
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://bluerobotics.com"
-            style="text-decoration:none;"
-          >
-            Blue Robotics
+          Modified By Youqing from BlueOS
           </a>
         </span>
       </v-container>
@@ -354,8 +347,8 @@
 <script lang="ts">
 import Vue, { defineAsyncComponent } from 'vue'
 
-import blueos_blue from '@/assets/img/blueos-logo-blue.svg'
-import blueos_white from '@/assets/img/blueos-logo-white.svg'
+import university_blue from '@/assets/img/university-logo-blue.svg'
+import university_white from '@/assets/img/university-logo-white.svg'
 import settings from '@/libs/settings'
 import helper from '@/store/helper'
 import wifi from '@/store/wifi'
@@ -496,7 +489,7 @@ export default Vue.extend({
           icon: 'mdi-puzzle',
           route: '/tools/extensions-manager',
           advanced: false,
-          text: 'Manage BlueOS extensions',
+          text: 'Manage extensions',
           beta: true,
         },
         ...foundExtensions,
@@ -632,8 +625,8 @@ export default Vue.extend({
     build_date(): string {
       return import.meta.env.VITE_BUILD_DATE
     },
-    blueos_logo(): string {
-      return settings.is_dark_theme ? blueos_white : blueos_blue
+    university_logo(): string {
+      return settings.is_dark_theme ? university_white : university_blue
     },
   },
 
