@@ -1,4 +1,4 @@
-export const BR_BLUE = '#99CC99'
+export const BR_BLUE = '#FFCC33'
 export const MARINER_BLUE = '#009966'
 export const BLUE_WHALE = '#336666'
 export const TETHER_YELLOW = '#FFE01B'
