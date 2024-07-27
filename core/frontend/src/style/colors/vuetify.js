@@ -1,6 +1,6 @@
 /* eslint-disable */
 module.exports = {
-  VUETIFY_PRIMARY: '#1976D2',
+  VUETIFY_PRIMARY: '#4CAF50',
   VUETIFY_SECONDARY: '#424242',
   VUETIFY_ACCENT: '#82B1FF',
   VUETIFY_SUCCESS: '#4CAF50',
