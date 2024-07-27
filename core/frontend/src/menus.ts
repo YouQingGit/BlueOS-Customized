@@ -29,11 +29,11 @@ const menus = [
     text: 'Editor for Bag Of Holding service.',
   },
   {
-    title: 'BlueOS Version',
+    title: 'Software Version',
     icon: 'mdi-cellphone-arrow-down',
     route: '/tools/version-chooser',
     advanced: false,
-    text: 'Manage BlueOS versions and update to the latest available.',
+    text: 'Manage System versions and update to the latest available.',
   },
   {
     title: 'File Browser',
