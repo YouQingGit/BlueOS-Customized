@@ -13,20 +13,8 @@
         elevation="2"
         dismissible
       >
-        <h3>Welcome to BlueOS!</h3>
-        Before you start, we highly recommend <a
-          href="https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/getting-started/#connect-wifi"
-          target="_blank"
-        >
-          connecting to the internet
-        </a>
-        and performing a <a
-          href="https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/getting-started/#select-version"
-          target="_blank"
-        >
-          system update to the latest available BlueOS version
-        </a>
-        .
+        <h3>欢迎使用定制化BlueOS系统!</h3>
+        为了便于使用过程中的地图加载，以及在线升级，请连接Wifi网络并自行准备外部代理工具。 --By YouQing
       </v-alert>
       <self-health-test />
     </v-row>
