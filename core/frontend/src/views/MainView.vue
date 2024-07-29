@@ -14,7 +14,7 @@
         dismissible
       >
         <h3>欢迎使用定制化BlueOS系统!</h3>
-        为了便于使用过程中的地图加载，以及在线升级，请连接Wifi网络并自行准备外部代理工具。 --By YouQing
+        为了便于使用过程中联网加载地图，以及在线升级功能，请连接Wifi网络并自行准备代理工具。 --By YouQing
       </v-alert>
       <self-health-test />
     </v-row>
