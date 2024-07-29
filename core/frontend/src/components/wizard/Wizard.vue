@@ -47,7 +47,7 @@
               Welcome to BlueOS!
               In this setup wizard we will guide you through the initial configuration of your vehicle,
               including setting up the vehicle name, hostname, and <b>firmware</b>.
-              If your vehicle is already set up, you can skip this wizard.
+              (若潜水器已配置完成，请跳过向导，避免不慎修改配置！).
             </v-card>
             <v-row class="pa-5 justify-space-between">
               <v-row class="pl-3 pt-2">
